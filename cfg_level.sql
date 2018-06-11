@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50616
 File Encoding         : 65001
 
-Date: 2018-06-06 11:43:00
+Date: 2018-06-11 19:23:50
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -35,6 +35,7 @@ CREATE TABLE `cfg_level` (
 -- ----------------------------
 -- Records of cfg_level
 -- ----------------------------
+INSERT INTO `cfg_level` VALUES ('1', '0', '', '', '0', '50000', '12000', '105', '1');
 INSERT INTO `cfg_level` VALUES ('2', '4', '', '', '0', '50000', '14000', '110', '2');
 INSERT INTO `cfg_level` VALUES ('3', '20', '', '', '0', '50000', '16000', '115', '3');
 INSERT INTO `cfg_level` VALUES ('4', '56', '', '', '0', '50000', '18000', '120', '4');
